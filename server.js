@@ -2,7 +2,7 @@ const jsonServer = require('json-server');
 
 const server = jsonServer.create();
 
-var json  = Object.assign({}, './users.json', './episodes.json', './posts.json' );
+var json  = Object.assign({}, 'users.json', 'episodes.json', 'posts.json' );
 
 const router = jsonServer.router(json);
 const middlewares = jsonServer.defaults();
