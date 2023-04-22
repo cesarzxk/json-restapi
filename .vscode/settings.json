@@ -1,0 +1,9 @@
+{
+  "conventionalCommits.scopes": [
+    "change",
+    "create",
+    "implement",
+    "remove"
+
+  ]
+}
